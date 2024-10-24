@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Scroller Game</title>
+    <style type="text/css">
+        canvas{
+            border: 1px solid black;
+           
+        }
+
+        body{
+            margin: 0;
+            background-color: slategray;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+
+</head>
+<body>
+    <canvas id = "canvas"></canvas>
+    <script src="sidescroller_script.js"></script>
+</body>
+
+</html>
