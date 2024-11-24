@@ -10,48 +10,49 @@ var startTime = Date.now();  // Track the start time
 var totalTime = 0;  // Store the total time when game is over
 
 const bg_img = new Image();
-bg_img.src = 'http://localhost:8000/bg2.png';
+bg_img.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/bg2.png';
+
 
 const jr_title = new Image();
-jr_title.src = 'http://localhost:8000/jr_title.png';
+jr_title.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/jr_title.png';
 
 const temple_img = new Image();
-temple_img.src = 'http://localhost:8000/temple_sml.png';
+temple_img.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/temple_sml.png';
 
 const water_img = new Image();
-water_img.src = 'http://localhost:8000/water.png';
+water_img.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/water.png';
 
 const platform_img = new Image();
-platform_img.src = 'http://localhost:8000/platform.png';
+platform_img.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/platform.png';
 
 const skull_img = new Image();
-skull_img.src = 'http://localhost:8000/skull_sml.png';
+skull_img.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/skull_sml.png';
 
 const skull_box = new Image();
-skull_box.src = 'http://localhost:8000/skull_box.png';
+skull_box.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/skull_box.png';
 
 const platform_sml = new Image();
-platform_sml.src = 'http://localhost:8000/platform_sml.png';
+platform_sml.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/platform_sml.png';
 //Running sprites
 //Right
 const run_right = new Image();
-run_right.src = 'http://localhost:8000/sprt_sheet_run_r.png';
+run_right.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/sprt_sheet_run_r.png';
 //Left
 const run_left = new Image();
-run_left.src = 'http://localhost:8000/sprt_sheet_run_l.png';
+run_left.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/sprt_sheet_run_l.png';
 //Standing Sprites
 //Right
 const sprt_sheet_r = new Image();
-sprt_sheet_r.src = 'http://localhost:8000/standing_r_sprt_sheet.png';
+sprt_sheet_r.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/standing_r_sprt_sheet.png';
 //Left
 const sprt_sheet_l = new Image();
-sprt_sheet_l.src = 'http://localhost:8000/standing_l_sprt_sheet.png';
+sprt_sheet_l.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/standing_l_sprt_sheet.png';
 //Dinosaur sprites
 const dino_sprt_r = new Image();
-dino_sprt_r.src = 'http://localhost:8000/dino_sprt_sheet_r3.png'
+dino_sprt_r.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/dino_sprt_sheet_r3.png'
 
 const dino_sprt_l = new Image();
-dino_sprt_l.src = 'http://localhost:8000/dino_sprt_sheet_l3.png'
+dino_sprt_l.src = 'https://raw.githubusercontent.com/Swillycoder/Jungle-Runner/main/dino_sprt_sheet_l3.png'
 
 platform_img.onload = () => {
     platforms.push(new Platform({ x: 0, y: 460, image: platform_img }));
